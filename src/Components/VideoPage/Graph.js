@@ -23,12 +23,12 @@ class Chart extends Component {
         datasets: [
           {
             label: "montly video update 2018",
-            data: [2, 3, 6, 4, 0, 6, 1, 2, 2, 5, 4, 1],
+            data: [2, 3, 1, 3, 0, 2, 1, 2, 2, 0, 0, 1],
             backgroundColor: "rgb(145, 23, 14)"
           },
           {
             label: "montly video update 2017",
-            data: [2, 3, 6, 4, 0, 6, 1, 2, 2, 5, 4, 1],
+            data: [2, 3, 0, 4, 0, 2, 1, 2, 2, 1, 4, 1],
             backgroundColor: "rgb(29, 13, 112)"
           }
         ]

@@ -7,10 +7,15 @@ const VideoItem = ({ video }) => {
     <Col md={3} style={{ margin: "10px" }}>
       <div className="myitem">
         <div className="item-img">
-          <img
-            alt={video.snippet.title}
-            src={video.snippet.thumbnails.medium.url}
-          />
+          <a
+            href={`https://www.youtube.com/watch?v=` + video.id.videoId}
+            target="blank"
+          >
+            <img
+              alt={video.snippet.title}
+              src={video.snippet.thumbnails.medium.url}
+            />
+          </a>
         </div>
         <div className="content">
           <div className="header">{video.snippet.title}</div>
